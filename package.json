@@ -1,0 +1,10 @@
+{
+  "name": "searchlens",
+  "version": "1.0.0",
+  "description": "Static search experience demo",
+  "scripts": {
+    "test": "npm run check:js",
+    "check:js": "node --check script.js"
+  },
+  "license": "MIT"
+}
