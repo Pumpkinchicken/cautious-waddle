@@ -4,7 +4,7 @@ const data = [
     description: 'Starter dashboard layout with responsive cards, charts placeholders, and dark mode.',
     tags: ['dashboard', 'analytics', 'layout'],
     category: 'tool',
-    url: 'https://example.com/dashboard',
+    url: 'https://vercel.com/templates/next.js/admin-dashboard',
     featured: true,
   },
   {
@@ -12,7 +12,7 @@ const data = [
     description: 'Step-by-step guide to plan, write, and launch content with templates and checklists.',
     tags: ['content', 'marketing', 'guide'],
     category: 'guide',
-    url: 'https://example.com/playbook',
+    url: 'https://contentmarketinginstitute.com/articles/content-strategy-framework',
     featured: false,
   },
   {
@@ -20,7 +20,7 @@ const data = [
     description: 'A concise primer on REST and GraphQL design, naming conventions, and pagination.',
     tags: ['api', 'rest', 'graphql'],
     category: 'article',
-    url: 'https://example.com/api-design',
+    url: 'https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction',
     featured: true,
   },
   {
@@ -28,7 +28,7 @@ const data = [
     description: 'Printable and digital onboarding flow with links to docs, accounts, and role expectations.',
     tags: ['onboarding', 'ops', 'hr'],
     category: 'resource',
-    url: 'https://example.com/onboarding',
+    url: 'https://www.atlassian.com/team-playbook/plays/new-hire-onboarding',
     featured: false,
   },
   {
@@ -36,7 +36,7 @@ const data = [
     description: 'Experiments board, interview scripts, and scoring frameworks for early discovery.',
     tags: ['product', 'research', 'framework'],
     category: 'tool',
-    url: 'https://example.com/discovery',
+    url: 'https://www.producttalk.org/2023/01/product-discovery-techniques/',
     featured: true,
   },
   {
@@ -44,7 +44,7 @@ const data = [
     description: 'Checklist and component patterns to ship accessible forms, navigation, and media.',
     tags: ['accessibility', 'a11y', 'ui'],
     category: 'guide',
-    url: 'https://example.com/accessibility',
+    url: 'https://www.a11yproject.com/checklist/',
     featured: false,
   },
   {
@@ -52,7 +52,7 @@ const data = [
     description: 'Opinionated event names, properties, and governance for consistent product analytics.',
     tags: ['analytics', 'events', 'tracking'],
     category: 'resource',
-    url: 'https://example.com/events',
+    url: 'https://segment.com/analytics-quickstart/',
     featured: false,
   },
   {
@@ -60,7 +60,7 @@ const data = [
     description: 'Color palettes, typography suggestions, and usage rules for cohesive branding.',
     tags: ['brand', 'design', 'identity'],
     category: 'resource',
-    url: 'https://example.com/brand-kit',
+    url: 'https://www.figma.com/community/file/768579318006696166',
     featured: false,
   },
 ];
