@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A focused AP Human Geography study dashboard with daily drills, unit progress, and exam strategy.">
+  <title>Atlas — AP Human Geography Prep</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Atlas home"><span class="brand-mark">A</span><span>ATLAS</span></a>
+    <nav aria-label="Primary navigation">
+      <a class="active" href="#dashboard">Dashboard</a>
+      <a href="#units">Units</a>
+      <a href="#practice">Practice</a>
+      <a href="#resources">Resources</a>
+    </nav>
+    <div class="header-actions">
+      <span class="streak"><span aria-hidden="true">✦</span> 12 day streak</span>
+      <button class="avatar" aria-label="Open profile">MS</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" id="dashboard">
+      <div class="hero-copy">
+        <p class="eyebrow">YOUR STUDY COMMAND CENTER</p>
+        <h1>Master the map.<br><em>Understand the world.</em></h1>
+        <p class="hero-text">Build the geographic thinking, vocabulary, and confidence you need to ace AP Human Geography.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#practice">Start today's session <span>→</span></a>
+          <button class="button secondary" id="planButton">View study plan</button>
+        </div>
+        <div class="exam-countdown">
+          <div><strong id="daysLeft">—</strong><span>days to exam</span></div>
+          <div class="countdown-bar"><span></span></div>
+          <p>You're <strong>68%</strong> through your plan</p>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Stylized globe illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="globe">
+          <svg viewBox="0 0 420 420" role="img" aria-label="Abstract world map">
+            <circle cx="210" cy="210" r="183" fill="none" stroke="currentColor" stroke-width="2" opacity=".3"/>
+            <ellipse cx="210" cy="210" rx="83" ry="183" fill="none" stroke="currentColor" stroke-width="1.4" opacity=".28"/>
+            <path d="M28 210h364M52 129h316M52 291h316" fill="none" stroke="currentColor" opacity=".2"/>
+            <path class="land" d="M82 105l35-25 41 10 22 25 34 6 9 26-25 18-20 45-27-7-10-40-36-14-30-21zm117 143 35-12 29 18-7 29-23 14-5 53-27-28-8-42zm59-142 48 3 29 31-13 24 25 22-12 37-35-11-20 22-24-19 9-33-29-18 7-30z"/>
+          </svg>
+          <span class="map-pin pin-one"></span><span class="map-pin pin-two"></span><span class="map-pin pin-three"></span>
+        </div>
+        <div class="fact-card"><span class="fact-icon">⌁</span><div><small>QUICK FACT</small><strong>Over 55% of people live in cities today.</strong></div></div>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Study stats">
+      <article><span class="stat-icon blue">↗</span><div><strong>18.5</strong><small>Hours studied</small></div><span class="trend">+2.4 this week</span></article>
+      <article><span class="stat-icon coral">◎</span><div><strong>76%</strong><small>Practice accuracy</small></div><span class="trend">+8% this month</span></article>
+      <article><span class="stat-icon gold">◇</span><div><strong>384</strong><small>Questions answered</small></div><span class="trend">Top 14%</span></article>
+      <article><span class="stat-icon green">✓</span><div><strong>3 of 7</strong><small>Units mastered</small></div><span class="trend">On track</span></article>
+    </section>
+
+    <section class="content-section" id="units">
+      <div class="section-heading"><div><p class="eyebrow">KEEP MOVING FORWARD</p><h2>Your learning path</h2></div><button class="text-button">View all units →</button></div>
+      <div class="unit-grid">
+        <article class="unit-card complete"><div class="unit-top"><span>01</span><b>✓</b></div><p class="unit-label">UNIT 1</p><h3>Thinking Geographically</h3><p>Spatial concepts, data, maps, and geographic perspectives.</p><div class="progress"><span style="width:100%"></span></div><small>12 / 12 lessons <b>MASTERED</b></small></article>
+        <article class="unit-card complete"><div class="unit-top"><span>02</span><b>✓</b></div><p class="unit-label">UNIT 2</p><h3>Population & Migration</h3><p>Population patterns, movement, and demographic change.</p><div class="progress"><span style="width:100%"></span></div><small>14 / 14 lessons <b>MASTERED</b></small></article>
+        <article class="unit-card current"><div class="unit-top"><span>03</span><b>IN PROGRESS</b></div><p class="unit-label">UNIT 3</p><h3>Cultural Patterns</h3><p>Language, religion, identity, and cultural landscapes.</p><div class="progress"><span style="width:64%"></span></div><small>9 / 14 lessons <b>64%</b></small><button class="continue" data-unit="Cultural Patterns">Continue unit →</button></article>
+        <article class="unit-card locked"><div class="unit-top"><span>04</span><b>⌑</b></div><p class="unit-label">UNIT 4</p><h3>Political Patterns</h3><p>States, nations, boundaries, and political geography.</p><div class="progress"><span style="width:0%"></span></div><small>0 / 13 lessons <b>UP NEXT</b></small></article>
+      </div>
+    </section>
+
+    <section class="practice-section" id="practice">
+      <div class="practice-copy"><p class="eyebrow light">TODAY'S FOCUS</p><h2>Ready for a quick challenge?</h2><p>Strengthen Cultural Patterns with a focused 10-question drill. About 8 minutes.</p><div class="tags"><span>10 questions</span><span>Adaptive difficulty</span><span>Instant feedback</span></div></div>
+      <div class="practice-card"><div class="mini-map">03</div><div><small>DAILY DRILL</small><h3>Cultural diffusion & identity</h3><p>Best score: <strong>8 / 10</strong></p></div><button id="drillButton" aria-label="Start daily drill">→</button></div>
+    </section>
+
+    <section class="tips" id="resources">
+      <div class="section-heading"><div><p class="eyebrow">EXAM SMARTER</p><h2>Strategy spotlight</h2></div><span class="updated">Updated weekly</span></div>
+      <article class="strategy-card"><span class="strategy-number">01</span><div><p class="unit-label">FREE-RESPONSE QUESTIONS</p><h3>Think in scales: local, regional, global</h3><p>Strong FRQ answers connect a process across multiple geographic scales. Name the scale, explain the pattern, then link it to a broader effect.</p><a href="#resources">Read the 3-minute strategy →</a></div><div class="scale-graphic"><span>LOCAL</span><span>REGIONAL</span><span>GLOBAL</span></div></article>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#top"><span class="brand-mark">A</span><span>ATLAS</span></a><p>Study with direction. Think like a geographer.</p><p>Not affiliated with the College Board.</p></footer>
+
+  <dialog id="studyDialog"><button class="dialog-close" aria-label="Close">×</button><p class="eyebrow">YOUR ROADMAP</p><h2>Study plan</h2><ul><li><b>Today</b><span>Complete the Cultural Diffusion drill</span></li><li><b>This week</b><span>Finish Unit 3 and take a checkpoint</span></li><li><b>Next up</b><span>Begin Political Patterns</span></li></ul><button class="button primary dialog-action">Let's do it</button></dialog>
+  <div class="toast" role="status" aria-live="polite">Loading your practice set…</div>
+  <script src="script.js"></script>
+</body>
+</html>
